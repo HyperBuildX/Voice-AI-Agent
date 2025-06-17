@@ -86,5 +86,6 @@ Generative agent/
 
 
 ## Contact
-[Apollum](https://x.com/x_apollum)
+- E-Mail: hyperbuildx@adamglab.dev
+- Telegram: [@bettyjk_0915](https://t.me/bettyjk_0915)
 
