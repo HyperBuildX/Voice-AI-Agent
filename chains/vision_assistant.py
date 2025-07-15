@@ -25,18 +25,6 @@ class VisionAssistant:
         self.chain = self.human_prompt_template | self.chat_model | StrOutputParser()
         self.memory = central_memory
 
-    # def process_image(self, image_path, desired_size=256):
-    #     try:
-    #         image = Image.open(image_path)
-    #         image.thumbnail((desired_size, desired_size), Image.Resampling.LANCZOS)
-    #         image = ImageOps.pad(image, (desired_size, desired_size), color="white")
-    #         buffered = io.BytesIO()
-    #         image.save(buffered, format="PNG")
-    #         return base64.b64encode(buffered.getvalue()).decode('utf-8')
-    #     except Exception as e:
-    #         logging.error(f"Error in VisionAssistant.process_image: {e}")
-    #         return None
-
     def process_image(self, image_path, desired_size=256):
         try:
             # Open the input image
